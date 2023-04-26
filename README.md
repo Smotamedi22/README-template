@@ -54,43 +54,30 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-In this section you should describe your project, including any datasets you used and appropriate citations. You may refer to your project report or cite your paper for more detailed information.
-
-[Here goes the title with hyperlink](https://github.com/catiaspsilva/README-template)
-
-You can include tables or images to summarize your results when and if appropriate.
+Since the COVID-19 pandemic began in November of 2019, schools all over the world had to adapt to a new environment, one defined by mask, at-home quarantine, and social distancing policies. With limits on social interaction, schools were forced to shift to online learning, using e-learning technology to continue operating during the pandemic. This involuntary switch was met with acceptance and rejection by Generation Z students, who were largely in high school and college during the pandemic. In this study, a theoretical framework based on the Technology Acceptance Model, TAM, was created to explore which factors are important to Generation Z students when they use e-learning technology. The factors included in the model are: Actual Use, Behavioral Intention to Use, Perceived Usefulness, Perceived Ease of Use, Perceived Severity of COVID-19 and Voluntariness, Information Quality, Privacy and Security, Accessibility and Service/System Quality, and Compatibility and Perceived Interaction. An online survey with 66 questions was created and distributed to Generation Z university students. Beside the questions regarding the model, the survey asked for background information including e-learning experience, voluntariness in taking online course, internet quality, compatibility of their learning style to online environment and etc. In this pattern recognition project, two goals will be achieved. In first goal, the students’ background impact on the technology acceptance of the e-learning will be explored. To achieve this goal, I conducted casual inference  using EconML package. In the second goal, the framework and the relationship between factors is studied using Bayesian Network
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-In this section you should provide instructions on how to use this repository to recreate your project locally.
+please run the data set as well as all the libraries.
 
 ### Dependencies
 
-Here, list all libraries, packages and other dependencies that need to be installed to run your project. Include library versions and how they should be installed if a special requirement is needed.
-
-For example, this is how you would list them:
-* Transformers 4.8.0
-  ```sh
-  conda install -c conda-forge transformers
-  ```
-* OpenCV 4.5.2
-  ```sh
-  conda install -c conda-forge opencv
-  ```
+Here, list all libraries, packages and other dependencies that need to be installed to run my project. 
+  -python=3.8
+  - networkx
+  - matplotlib
+  - pandas
+  - numpy
+  - pgmpy
+  - scikit-learn
+  - statsmodels
+  - xgboost
+  - econml
+  
 ### Alternative: Export your Environment
 
-Alternatively, you can export your Python working environment, push it to your project's repository and allow users to clone it locally. This way, anyone can install it and they will have all dependencies needed. Here is how you export a copy of your Python environment:
-
-  ```sh
-  conda env export > requirements.yml
-  ```
-
-The user will be able to recreate it using:
-
-  ```sh
-  conda env create -f requirements.yml
-  ```
+I exported my Python working environment, push it to my project's repository.
 
 ### Installation
 
@@ -106,27 +93,23 @@ The user will be able to recreate it using:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. For course projects, include which file to execute and the format of any input variables.
-
-Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+If you run the code step by step the code and comments are straight forward!
 
 <!-- ROADMAP -->
 ## Roadmap
-
-See the [open issues](https://github.com/catiaspsilva/README-template/issues) for a list of proposed features (and known issues).
+NA
 
 <!-- CONTRIBUTING -->
 ## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+ **greatly appreciated**.
+A.	Theoretical Contirbution
+1. Adding a factor which capture the impact of voluntariness of use due to the COVID-19 pandemic forcing schools to shift to online distance learning. 
+2. Adding a factor which capture the importance of privacy and security to Generation Z students when using online learning systems. 
+3. Adding a factor which capture the effect that the risk of the COVID-19 virus has on Generation Z students’ acceptance of online learning technology. 
+4. Adding a factor which capture the impact of students’ personality and learning style when using e-learning systems. 
+B.	Contirbution Contirbution
+1. Exploring  the impact of students’ background such as including e-learing experience, compatibility of their learning style to online environment, internet quality and etc.on the technology acceptance.
+2. Exploring the framework and the relationship between factors is studied using Bayesian Network.
 
 
 <!-- LICENSE -->
@@ -138,9 +121,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- Authors -->
 ## Authors
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Sanaz Motamedi - smotamedi@ufl.edu
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/your_username/repo_name](https://github.com/uf-eel6825-sp23/final-project-code-Smotamedi22)
 
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -158,4 +141,3 @@ You can acknowledge any individual, group, institution or service.
 
 ## Thank you
 
-<!-- If this is useful: [![Buy me a coffee](https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg)](https://www.buymeacoffee.com/catiaspsilva) -->
